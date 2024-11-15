@@ -34,10 +34,6 @@ ul {
 li {
   margin: 0.5rem 0;
 }
-button:active {
-  color: mediumpurple;
-  font-weight: bold;
-}
 footer {
   background-color: #999;
   text-align: center;
