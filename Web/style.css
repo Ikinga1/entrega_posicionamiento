@@ -1,4 +1,41 @@
-p {
+body {
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: black;
-  background-color: darksalmon;
+  background-color: tan;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: saddlebrown;
+  padding: 1rem 2%;
+}
+img {
+  height: 50px;
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+main {
+  max-width: 600px;
+  padding: 16px;
+  margin: 0;
+  text-align: left;
+}
+h2,
+h3 {
+  margin: 1rem 0;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 0.5rem 0;
+}
+footer {
+  background-color: lavender;
+  padding: 16px;
+  text-align: center;
 }
